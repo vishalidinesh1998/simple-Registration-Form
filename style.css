@@ -1,0 +1,69 @@
+body {
+    font-family: "Spectral", serif;
+    background: #3F5EFB;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+#form{
+    width:400px;
+    border-radius: 5px;
+    background-color:whitesmoke;
+    padding:30px;
+    margin: 20vh auto 0 auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+h1{
+    color:#E04A81;
+    text-align: center;
+}
+#form button{
+    background-color: #C44D95 ;
+    border:solid  #C44D95 2px;
+    border-radius: 3px;
+    margin-top:10px;
+    padding :5px;
+    width:20%;
+    cursor:pointer;
+    width:100%;
+
+}
+.input-group{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input-group input{
+    border-radius: 5px;
+    padding: 5px;
+    margin-top:5px;
+    border:solid #A651AB 2px;
+    
+}
+.input-group input:focus{
+    outline: 0;
+}
+.input-group .error{
+    color: red;
+    margin-left:5px;
+    margin-top: 5px;
+}
+.input-group.error input{
+    border-color: red;
+}
+.input-group.success input{
+    border-color: rgb(45, 110, 45);
+}
+.popup {
+    height: 100px;
+    width: 300px;
+    background-color:whitesmoke;
+    padding:30px;
+    margin: 5vh auto 0 auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.popup p{
+    color: green;
+}
+.hidden{
+    display:none;
+}

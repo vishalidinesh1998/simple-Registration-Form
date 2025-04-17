@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <!-- style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!--Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Poly:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Timmana&family=Young+Serif&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <form id="form">
+        <h1 id="heading">Registration Form</h1>
+        <div class="input-group">
+            <lable>Username</lable>
+            <input type="text" id="name">
+            <div class="error"></div>
+        </div>
+        <div class="input-group">
+            <lable>Email</lable>
+            <input type="text" id="email">
+            <div class="error"></div>
+        </div>
+        <div class="input-group">
+            <lable>Password</lable>
+            <input type="text" id="pass">
+            <div class="error"></div>
+        </div>
+        <button type="submit" id="butn">Submit</button>
+
+        <div class="popup hidden" id="popup">
+            <p>Form submitted Successfully!!!</p>
+        </div>
+       
+        <script src="script.js"></script>
+    </form>
+  
+
+</body>
+
+</html>
